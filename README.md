@@ -3,8 +3,8 @@
 An end-to-end data science project measuring real-world on-time performance,
 headway consistency, and delay patterns on Sacramento Regional Transit's
 light rail system, using SacRT's live GTFS-Realtime feed compared against
-its published schedule (static GTFS) — with a model to predict delays and
-a data-backed recommendation at the end.
+its published schedule (static GTFS). Showing a model to predict delays and
+a data backed recommendation at the end.
 
 ## Status
 🚧 Data collection phase.
