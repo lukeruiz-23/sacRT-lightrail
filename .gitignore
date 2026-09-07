@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+data/static_gtfs/*.txt
+!data/static_gtfs/lr_*.csv

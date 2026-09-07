@@ -1,0 +1,11 @@
+gtfs-realtime-bindings==1.0.0
+protobuf>=4.25,<5
+pandas>=2.2
+requests>=2.31
+gtfs-kit>=10.1
+scikit-learn>=1.4
+xgboost>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+streamlit>=1.35
+python-dotenv>=1.0

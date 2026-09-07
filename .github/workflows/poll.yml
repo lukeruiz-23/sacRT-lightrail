@@ -1,0 +1,35 @@
+name: Poll SacRT GTFS-RT feed
+
+on:
+  schedule:
+    # Every 5 minutes. GitHub's scheduler is best-effort and can lag
+    # under load -- that's fine and worth noting in your write-up.
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}   # lets you trigger a manual run from the Actions tab
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Initialize DB if missing
+        run: python scripts/init_db.py
+
+      - name: Poll feed
+        run: python scripts/poll_gtfs_rt.py
+
+      - name: Commit updated database
+        run: |
+          git config user.name "gtfs-rt-bot"
+          git config user.email "actions@github.com"
+          git add data/sacrt_lightrail.db
+          git diff --staged --quiet || git commit -m "Poll snapshot $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push

@@ -1,0 +1,105 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id
+7000,7000,Watt/I-80 Station (WB),Buses head WB,38.644922,-121.384812,0
+7001,7001,Watt/I-80 West Station (WB),Buses head WB,38.642622,-121.39505,0
+7002,7002,Roseville Road Station (WB),Buses head WB,38.638011,-121.402665,0
+7003,7003,Marconi/Arcade Station (WB),Buses head WB,38.621087,-121.425055,0
+7004,7004,Employee Platform Station (WB),Buses head WB,38.61585,-121.430783,0
+7005,7005,Swanston Station (WB),Buses head WB,38.607435,-121.439848,0
+7006,7006,Royal Oaks Station (WB),Buses head WB,38.606247,-121.448177,0
+7007,7007,Arden/Del Paso Station (WB),Buses head WB,38.606316,-121.457376,0
+7008,7008,Globe Avenue Station (WB),Buses head WB,38.602633,-121.4664,0
+7009,7009,Alkali Flat/La Valentina Station (SB),Buses head SB,38.585212,-121.4883,2
+7010,7010,12th & I Station (SB),Buses head SB,38.580833,-121.490233,2
+7011,7011,Cathedral Square Station (WB),Buses head WB,38.579171,-121.493576,2
+7013,7013,7th & Capitol Station (SB),Buses head SB,38.578258,-121.498721,2
+7014,7014,8th & O Station (EB),Buses head EB,38.575579,-121.49868,2
+7015,7015,Archives Plaza Station (EB),Buses head EB,38.574401,-121.494718,2
+7016,7016,13th Street Station (EB),Buses head EB,38.570836,-121.492983,2
+7017,7017,16th Street Station (EB),Buses head EB,38.569773,-121.489018,2
+7018,7018,Broadway Station (EB),Buses head EB,38.559182,-121.488238,2
+7019,7019,4th Ave/Wayne Hultgren Station (EB),Buses head EB,38.550966,-121.488002,0
+7020,7020,City College Station (EB),Buses head EB,38.541652,-121.485293,0
+7021,7021,Fruitridge Station (EB),Buses head EB,38.525188,-121.479969,0
+7022,7022,47th Avenue Station (EB),Buses head EB,38.511452,-121.475827,0
+7023,7023,Florin Station (EB),Buses head EB,38.497317,-121.471467,0
+7024,7024,Meadowview Station (EB),Buses head EB,38.482687,-121.466981,0
+7025,7025,Meadowview Station (WB),Buses head WB,38.483607,-121.467258,0
+7026,7026,Florin Station (WB),Buses head WB,38.498243,-121.471646,0
+7027,7027,47th Avenue Station (WB),Buses head WB,38.512383,-121.476017,0
+7028,7028,Fruitridge Station (WB),Buses head WB,38.526083,-121.480233,0
+7029,7029,City College Station (WB),Buses head WB,38.542579,-121.485473,0
+7030,7030,4th Ave/Wayne Hultgren Station (WB),Buses head WB,38.551899,-121.488192,0
+7031,7031,Broadway Station (WB),Buses head WB,38.560027,-121.487752,2
+7032,7032,16th Street Station (WB),Buses head WB,38.570121,-121.489998,2
+7033,7033,13th Street Station (WB),Buses head WB,38.571133,-121.493783,2
+7034,7034,Archives Plaza Station (WB),Buses head WB,38.574381,-121.494278,2
+7035,7035,8th & O Station (WB),Buses head WB,38.575439,-121.498084,2
+7036,7036,8th & Capitol Station (WB),Buses head WB,38.577521,-121.49773,2
+7037,7037,St Rose of Lima Park Station (EB),Buses head EB,38.579557,-121.495491,2
+7038,7038,Cathedral Square Station (EB),Buses head EB,38.578637,-121.492009,2
+7039,7039,12th & I Station (NB),Buses head NB,38.581667,-121.489933,2
+7040,7040,Alkali Flat/La Valentina Station (NB),Buses head NB,38.585994,-121.487946,2
+7041,7041,Globe Avenue Station (EB),Buses head EB,38.603098,-121.465426,0
+7042,7042,Arden/Del Paso Station (EB),Buses head EB,38.606207,-121.456274,0
+7043,7043,Royal Oaks Station (EB),Buses head EB,38.605943,-121.4474,0
+7044,7044,Swanston Station (EB),Buses head EB,38.60805,-121.439033,0
+7045,7045,Employee Platform Station (EB),Buses head EB,38.615787,-121.430707,0
+7046,7046,Marconi/Arcade Station (EB),Buses head EB,38.621688,-121.424278,0
+7047,7047,Roseville Road Station (EB),Buses head EB,38.638483,-121.40145,0
+7048,7048,Watt/I-80 West Station (EB),Buses head EB,38.643081,-121.394052,0
+7049,7049,Watt/I-80 Station (EB),Buses head EB,38.645012,-121.383651,0
+7050,7050,23rd Street Station (EB),Buses head EB,38.566433,-121.47855,2
+7051,7051,29th Street Station (EB),Buses head EB,38.564317,-121.47055,2
+7052,7052,39th Street Station (EB),Buses head EB,38.560463,-121.456583,0
+7053,7053,48th Street Station (EB),Buses head EB,38.5582,-121.4483,0
+7054,7054,59th Street Station (EB),Buses head EB,38.554607,-121.43524,0
+7055,7055,University/65th Street Station (EB),Buses head EB,38.5523,-121.426566,0
+7056,7056,Power Inn Station (EB),Buses head EB,38.547217,-121.406916,0
+7057,7057,College Greens Station (EB),Buses head EB,38.547077,-121.392775,0
+7058,7058,Watt/Manlove Station (EB),Buses head EB,38.554066,-121.372654,0
+7059,7059,Starfire Station (EB),Buses head EB,38.559731,-121.361369,0
+7060,7060,Tiber Station (EB),Buses head EB,38.564211,-121.352457,0
+7061,7061,Butterfield Station (EB),Buses head EB,38.567361,-121.346062,0
+7062,7062,Mather Field/Mills Station (EB),Buses head EB,38.584973,-121.310611,0
+7063,7063,Zinfandel Station (EB),Buses head EB,38.595294,-121.289773,0
+7064,7064,Cordova Town Center Station (EB),Buses head EB,38.59887,-121.282502,0
+7065,7065,Sunrise Station (EB),Buses head EB,38.606965,-121.266108,0
+7066,7066,Sunrise Station (WB),Buses head WB,38.606523,-121.267248,0
+7067,7067,Cordova Town Center Station (WB),Buses head WB,38.598441,-121.283655,0
+7068,7068,Zinfandel Station (WB),Buses head WB,38.594833,-121.290917,0
+7069,7069,Mather Field/Mills Station (WB),Buses head WB,38.584483,-121.311617,0
+7070,7070,Butterfield Station (WB),Buses head WB,38.566977,-121.347087,0
+7071,7071,Tiber Station (WB),Buses head WB,38.563817,-121.353483,0
+7072,7072,Starfire Station (WB),Buses head WB,38.559245,-121.362547,0
+7073,7073,Watt/Manlove Station (WB),Buses head WB,38.553684,-121.373651,0
+7074,7074,College Greens Station (WB),Buses head WB,38.547035,-121.393899,0
+7075,7075,Power Inn Station (WB),Buses head WB,38.547483,-121.4081,0
+7076,7076,University/65th Street Station (WB),Buses head WB,38.552648,-121.427486,0
+7077,7077,59th Street Station (WB),Buses head WB,38.554995,-121.436289,0
+7078,7078,48th Street Station (WB),Buses head WB,38.558592,-121.449346,0
+7079,7079,39th Street Station (WB),Buses head WB,38.56087,-121.457653,0
+7080,7080,29th Street Station (WB),Buses head WB,38.564667,-121.47155,2
+7081,7081,23rd Street Station (WB),Buses head WB,38.566701,-121.479207,2
+7082,7082,Hazel Station (EB),Buses head EB,38.630621,-121.211678,0
+7083,7083,Iron Point Station (EB),Buses head EB,38.644967,-121.189683,0
+7084,7084,Glenn Station (EB),Buses head EB,38.663667,-121.183633,0
+7085,7085,Historic Folsom Station (EB),Buses head EB,38.67635,-121.180717,0
+7086,7086,Historic Folsom Station (WB),Buses head WB,38.67545,-121.180467,0
+7087,7087,Glenn Station (WB),Buses head WB,38.662733,-121.183667,0
+7088,7088,Iron Point Station (WB),Buses head WB,38.644317,-121.190567,0
+7089,7089,Hazel Station (WB),Buses head WB,38.630217,-121.212754,0
+7090,7090,7th & I/County Center Station (SB),Buses head SB,38.582585,-121.496864,2
+7091,7091,8th & K Station (NB),Buses head NB,38.580371,-121.496515,2
+7092,7092,Sacramento Valley Station (WB),Buses head WB,38.584627,-121.500439,2
+7093,7093,Sacramento Valley Station (EB),Buses head EB,38.584323,-121.499307,2
+7095,7095,8th & H Station (NB),Buses head NB,38.58292,-121.495389,0
+7097,7097,CRC Station (SB),Buses head SB,38.453234,-121.418322,0
+7098,7098,CRC Station (NB),Buses head NB,38.454141,-121.418263,0
+7099,7099,Morrison Creek Station (SB),Buses head SB,38.465759,-121.46303,0
+7100,7100,Morrison Creek Station (NB),Buses head NB,38.46665,-121.463179,0
+7101,7101,Franklin Station (EB),Buses head EB,38.462785,-121.448058,0
+7102,7102,Franklin Station (WB),Buses head WB,38.463285,-121.449009,0
+7103,7103,Center Parkway Station (EB),Buses head EB,38.458599,-121.429365,0
+7104,7104,Center Parkway Station (WB),Buses head WB,38.458941,-121.430422,0
+7107,7107,Dos Rios Station (SB),Buses head SB,38.593194,-121.480037,2
+7108,7108,Dos Rios Station (NB),Buses head NB,38.5934,-121.479,2
