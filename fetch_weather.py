@@ -74,10 +74,12 @@ if __name__ == "__main__":
         raise SystemExit("NOAA_TOKEN not found")
 
     end = date.today() - timedelta(days=1)
-    start = end - timedelta(days=60)  # test with 2 months now
+    start = end - timedelta(days=60)  # test with 2 months
 
     print(f"Fetching weather from {start} to {end} for station {STATION_ID}...")
     daily = fetch_weather_range(start.isoformat(), end.isoformat())
     print(daily)
     print(f"\n{len(daily)} days of weather data.")
-
+    output_path = "data/weather_sacramento.csv"
+    daily.to_csv(output_path, index=False)
+    print(f"\nSaved to {output_path}")
