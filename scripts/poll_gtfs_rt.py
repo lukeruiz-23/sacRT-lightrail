@@ -29,7 +29,13 @@ def fetch_feed(url: str) -> gtfs_realtime_pb2.FeedMessage:
     resp = requests.get(url, timeout=TIMEOUT_SECONDS)
     resp.raise_for_status()
     feed = gtfs_realtime_pb2.FeedMessage()
-    feed.ParseFromString(resp.content)
+    try:
+        feed.ParseFromString(resp.content)
+    except Exception as e:
+        raise ValueError(
+            f"Failed to parse feed from {url} "
+            f"(status={resp.status_code}, bytes={len(resp.content)}): {e}"
+        )
     return feed
 
 
@@ -106,22 +112,25 @@ def poll_trip_updates(conn, poll_time: str):
     print(f"  trip_updates: inserted {len(rows)} rows")
     return len(rows)
 
-
 def main():
     poll_time = datetime.now(timezone.utc).isoformat()
     print(f"[{poll_time}] Polling SacRT GTFS-RT feeds...")
 
     conn = sqlite3.connect(DB_PATH)
+    vp_count = tu_count = 0
     try:
-        vp_count = poll_vehicle_positions(conn, poll_time)
-        tu_count = poll_trip_updates(conn, poll_time)
+        try:
+            vp_count = poll_vehicle_positions(conn, poll_time)
+        except Exception as e:
+            print(f"  vehicle_positions poll failed, skipping: {e}")
+
+        try:
+            tu_count = poll_trip_updates(conn, poll_time)
+        except Exception as e:
+            print(f"  trip_updates poll failed, skipping: {e}")
+
         conn.commit()
         print(f"Done. {vp_count} vehicle rows, {tu_count} trip-update rows.")
-    except requests.RequestException as e:
-        print(f"Feed request failed: {e}")
-    except Exception as e:
-        print(f"Unexpected error during poll: {e}")
-        raise
     finally:
         conn.close()
 
