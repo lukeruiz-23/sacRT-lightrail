@@ -20,16 +20,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Initialize DB if missing
-        run: python scripts/init_db.py
-
       - name: Poll feed
         run: python scripts/poll_gtfs_rt.py
 
-      - name: Commit updated database
+      - name: Commit new data
         run: |
           git config user.name "gtfs-rt-bot"
           git config user.email "actions@github.com"
-          git add data/sacrt_lightrail.db
+          git add data/raw/
           git diff --staged --quiet || git commit -m "Poll snapshot $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           git push
