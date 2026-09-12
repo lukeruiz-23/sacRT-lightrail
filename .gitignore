@@ -4,3 +4,4 @@ __pycache__/
 .venv/
 data/static_gtfs/*.txt
 !data/static_gtfs/lr_*.csv
+data/sacrt_lightrail.db
