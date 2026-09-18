@@ -81,7 +81,7 @@ Data is provided by SacRT on an "as-is" basis per their
 
 ## Roadmap
 - [x] Confirm live feed access and set up polling pipeline
-- [ In Progress ] Collect 2-4 weeks of real-time data
+- [x] Collect 2-4 weeks of real-time data
 - [ ] Compute on-time performance, headway variance, and delay hotspots by line/segment
 - [ ] Pull weather data (NOAA) as a feature source
 - [ ] Train delay-prediction model (baseline regression → XGBoost), compare + feature importance
